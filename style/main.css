@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.scroll {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(93,119,71);
+    border: 1px solid white;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.fa-angle-up {
+    font-size: 2em;
+    padding-top: 7px;
+    color: white;
+}
+
+
+/**************HEADER******************/
+
+
+.container-main {
+    font-family: 'Amatic SC', cursive;
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/leaf.jpg) no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.name-container {
+    padding-top: 13%;
+    color: white;
+}
+
+.name-container p {
+    font-size: 3em;
+}
+
+.name-container h1 {
+    font-size: 6em;
+}
+
+header {
+    background-image: inherit;
+    height: 50px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+
+
+ul {
+    font-weight: 500;
+    font-size: 1.7em;
+    list-style: none;
+    color: rgb(247, 242, 242);
+}
+
+ul li {
+    letter-spacing: 2px;
+    padding: 0 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    color: rgba(217, 230, 209, 0.767);
+    border-bottom: 1px solid rgba(217, 230, 209, 0.767);
+}
+
+
+/********** ABOUT SECTION ************/
+
+.about-paragraph {
+    font-size: 1.5em;
+}
+
+.rounded-circle {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+section {
+    font-family: 'Bellota Text', cursive;
+}
+
+/********* SKILLS SECTION *************/
+
+#skills {
+    background-image: url(/img/skl.jpg);
+    background-size: cover;
+}
+
+.skill {
+    width: 140px;
+    height: 120px;
+}
+
+.skill-section article {
+    box-shadow: rgba(190, 190, 190, 0.507) 1.95px 1.95px 2.6px;
+    padding: 35px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(228, 217, 217);
+}
+
+/*************** PROJECTS SECTION **************************/
+
+
+.project-article {
+    margin: 0 10px;
+    padding: 40px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.project-article img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/**************** CONTACT SECTION *******************/
+
+#contact {
+    background-image: url(/img/contact.jpg);
+    background-size: cover;
+}
+
+.contact-section-text {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.contact-section {
+    margin: 0 auto;
+}
+
+.contact-section article{
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.contact-section article i {
+    font-size: 3em;
+}
+.contact-section article a {
+    color: white;
+}
+.contact-section article a:hover {
+    color:rgba(200, 206, 201, 0.904);
+}
