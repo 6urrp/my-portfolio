@@ -36,7 +36,6 @@ h3 {
     color: white;
 }
 
-
 /**************HEADER******************/
 
 
@@ -55,20 +54,25 @@ h3 {
     color: white;
 }
 
+
 .name-container p {
-    font-size: 3em;
+    font-size: 1.5em;
 }
+
+@media (min-width: 767.98px) { 
+    .name-container p {
+        font-size: 3em;
+    }
+}
+
+
 
 .name-container h1 {
     font-size: 6em;
-}
+} 
 
 header {
-    background-image: inherit;
-    height: 50px;
     width: 100%;
-    z-index: 10;
-    position: fixed;
 }
 
 
@@ -93,6 +97,10 @@ ul li a:hover {
     cursor: pointer;
     color: rgba(217, 230, 209, 0.767);
     border-bottom: 1px solid rgba(217, 230, 209, 0.767);
+}
+
+main {
+    width: 100%;
 }
 
 
